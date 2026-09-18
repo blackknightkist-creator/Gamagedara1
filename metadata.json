@@ -1,0 +1,6 @@
+{
+  "name": "ගමගෙදර - අපේ උරුමය",
+  "description": "හොරණ කුළුපන ගමගෙදරින් 100% පිරිසිදු කිතුල් පැණි, හකුරු සහ කිතුල් පිටි. දිවයින පුරා බෙදාහැරීම.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
