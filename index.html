@@ -4,19 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     
-    <!-- Security Headers (OWASP Hardening, Strict HTTPS & XSS Protection) -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <!-- Meta & Standard Web App Settings -->
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; default-src 'self' https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; frame-src 'self' https://www.google.com https://maps.google.com; connect-src 'self' https:;" />
-
-    <!-- Automatic HTTPS Enforcer (Redirect insecure HTTP to HTTPS in production) -->
-    <script>
-      if (window.location.protocol === 'http:' && !['localhost', '127.0.0.1'].includes(window.location.hostname)) {
-        window.location.replace('https:' + window.location.href.substring(window.location.protocol.length));
-      }
-    </script>
 
     <title>ගමගෙදර - හොරණ 100% පිරිසිදු කිතුල් පැණි සහ හකුරු | Gamagedara Heritage</title>
     <meta name="description" content="හොරණ කුළුපන ගමගෙදරින් 100% නොමුසු පිරිසිදු කිතුල් පැණි, ගොටු හකුරු සහ කිතුල් පිටි ගෙදරටම ගෙන්වාගන්න. දිවයින පුරා බෙදාහැරීම. අදම අමතන්න 0711650300." />
